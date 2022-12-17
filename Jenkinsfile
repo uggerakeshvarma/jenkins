@@ -1,7 +1,7 @@
 node{
 
-   def tomcatWeb = 'd:\\tomcat-9.0.68\\webapps'
-   def tomcatBin = 'd:\\tomcat-9.0.68\\bin'
+   def tomcatWeb = 'd:\\tomcat-9.0.70\\webapps'
+   def tomcatBin = 'd:\\tomcat-9.0.70\\bin'
    def tomcatStatus = ''
    stage('SCM Checkout'){
      git 'https://github.com/cubeiplKumar/JenkinsPipelineDemo.git'
